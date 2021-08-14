@@ -1,0 +1,16 @@
+.content-box {
+    border: 1px solid blue;
+}
+
+.box {
+    width: 32%;
+    display: inline-block;
+    height: 200px;
+    border: 10px solid red;
+    padding: 10px;
+    margin: 0.5%;
+    text-align: center;
+    box-sizing: border-box;
+    background-clip: content-box;
+    background-color: yellow;
+}
